@@ -1,0 +1,77 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: #D3FFB8;
+
+
+}
+
+.navbar-nav li a:hover {
+    color: #2610b2 !important;
+}
+
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #94C5E3;
+}
+
+.footer p {
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(27, 25, 25);
+}
+
+#compose {
+    font-family: 'Lora', serif;
+    color: rgb(255, 0, 0);
+    font-size: 150%;
+
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+@media all and (max-width: 1200px) and (min-width: 800px) {
+
+
+    p {
+        font-size: 25px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 25px;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+}
